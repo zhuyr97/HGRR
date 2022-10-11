@@ -1,5 +1,5 @@
 from os.path import join
-from options.errnet.train_options import TrainOptions
+from options.hgrr.train_options import TrainOptions
 from engine import Engine
 from data.image_folder import read_fns
 import torch.backends.cudnn as cudnn
@@ -102,6 +102,3 @@ while engine.epoch < 70:
     engine.eval(eval_dataloader_solid200, dataset_name='testdata_solid200')
     print('inference_time_on testdata cost: %.5f'%(time.time() - st))
 
-
-#python train_errnet.py --name errnet1 --hyper --checkpoints_dir ./checkpoints_zyr_GL --gpu_ids 0 --inet errnet1
-#python train_errnet.py --name errnet2 --hyper --checkpoints_dir ./checkpoints_zyr_GL --gpu_ids 1 --inet errnet2
