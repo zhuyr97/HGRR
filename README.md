@@ -11,7 +11,8 @@ The implementation of our paper "Hue Guidance Network for Single Image Reflectio
    ``` python test_HGRR.py``` 
 
 
-
+## Download Results
+[Results of Reflection Benchmarks](https://drive.google.com/drive/folders/1JPeI9K-KxUbLk9WNlPIJsdWgrMmW2kPl?usp=sharing)
 
 ## Concat
 If you have any problem, please feel free to contact me (zyr@mail.ustc.edu.cn).
