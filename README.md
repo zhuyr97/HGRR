@@ -4,9 +4,9 @@ The implementation of our paper "Hue Guidance Network for Single Image Reflectio
 ## Implementation
 * Training Phase
 
-   ```python train_HGRR.py --name train_DB_wboosting2 --hyper --inet train_DB_wboosting2 --lambda_vgg 0.1 --lambda_newloss 50 --lambda_newloss_H 20```
+   ```python train_HGRR.py --name train_DB_wboosting --hyper --inet HGRR_wboosting1128 --lambda_vgg 0.02 --lambda_newloss 50 --lambda_newloss_H 20```
 
-* Training Phase
+* Testing Phase
 
    ``` python test_HGRR.py``` 
 
