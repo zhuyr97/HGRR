@@ -79,8 +79,8 @@ engine.model.opt.lambda_gan = 0
 # engine.model.opt.lambda_gan = 0.01
 set_learning_rate(1e-4)
 while engine.epoch < 70:
-    if engine.epoch == 20:
-        engine.model.opt.lambda_gan = 0.01 # gan loss is added after epoch 20
+    #if engine.epoch == 20:
+    #    engine.model.opt.lambda_gan = 0.01 # gan loss is added after epoch 20
     if engine.epoch == 30:
         set_learning_rate(5e-5)
     if engine.epoch == 40:
