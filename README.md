@@ -18,7 +18,7 @@ The implementation of our paper "Hue Guidance Network for Single Image Reflectio
 
 3. evaluation phase
 
-      ``` python test_HGRR.py``` 
+      ``` python test_HGRR.py --name test -r --inet HGRR_wboosting1128 --icnn_path best.pt --hyper``` 
 
 
 ## Results & Pre-trained model
