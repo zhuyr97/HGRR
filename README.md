@@ -1,6 +1,5 @@
 # HGRR
-The implementation of our paper "Hue Guidance Network for Single Image Reflection Removal".
-
+This is the official implementation of the TNNLS 2023 paper "Hue Guidance Network for Single Image Reflection Removal".
 ## Implementation
 
 1. Prepare the training data as follows:
